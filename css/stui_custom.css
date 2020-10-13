@@ -1,0 +1,89 @@
+/*!
+ * Edition v2.0 Copyright 2016-2018 
+ * Email 
+ */
+
+/* header */
+.stui-header__top{ background-color: #000; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+
+/* header-menu */
+.stui-header__menu li a{ color: #FFFFFF;}
+.stui-header__menu li.active a{ border-bottom: 2px solid #FF9900;}
+
+/* header-search */
+.stui-header__search .form-control{ border: 1px solid #020411; background-color: #323232;}
+.stui-header__search .submit .icon{ color: #999999;}
+
+/* header-user */
+.stui-header__user li a,.stui-header__user li a .icon{ color: #FFFFFF;}
+
+/* index */
+.stui_nav__taddar .item{ background-color: #323232;}
+.stui_nav__taddar .item:hover .title{ color: #fff;}
+.stui-index__code{ background-color: #f8f8f8;}
+
+/* screen */
+.stui-screen__list li a{ color: #333333;}
+.stui-screen__list li.active a{ background-color: #FF9900; color: #FFFFFF;}
+.stui-screen__min{ border-left: 1px solid #EEEEEE;}
+.stui-screen__min.first{ border-left: 0;}
+
+/* playlist */
+.stui-content__playlist li a{ border: 1px solid #EEEEEE;}
+.stui-content__playlist li a:hover,.stui-content__playlist li.active a{ border: 1px solid #FF9900; background-color: #FF9900; color: #FFFFFF;}
+
+/* player */
+.stui-player__video{ background-color: #000000;}
+
+
+/* page */
+.stui-page li a,.stui-page li .num{background-color: #FFFFFF; border: 1px solid #EEEEEE;}
+.stui-page li a:hover,.stui-page li.active a,.stui-page li.active .num{ background-color: #FF9900; color: #FFFFFF; border: 1px solid #FF9900;}
+.stui-page-text a,.stui-page-text em,.stui-page-text span{background-color:#FFFFFF; border:1px solid #EEEEEE;}
+.stui-page-text span.pagenow{background-color:#FF9900; color:#FFFFFF; border:1px solid #f80}
+.stui-page-text .pagego{ border: 1px solid #EEEEEE;}
+.stui-page-text .pagebtn{background-color: #FFFFFF; border: 1px solid #EEEEEE;}
+
+/* extra */
+.stui-extra li a,.stui-extra li span{ background-color: #FFFFFF; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+.stui-extra li a.backtop{ background-color: rgba(0,0,0,0.6); color: #FFFFFF; }
+.stui-extra li .sideslip{ background-color: #FFFFFF; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+.stui-extra li .sideslip:before{ background-color: #FFFFFF; border-color: rgba(0, 0, 0, 0.1);}
+
+@media (max-width: 1024px){
+	
+	/* header-menu */
+	.stui-header__menu:before{ border-top: 1px solid #323232;}
+
+}
+
+@media (max-width: 767px){
+	
+	/* screen */	
+	.stui-screen__min{ border-left: 0;}	
+	.stui-screen__min:before{ border-top: 1px solid #EEEEEE;}		
+		
+}
+
+@media (max-width: 767px){/*播放下载列表*/
+.hy-play-list .item{padding: 0 5px;}
+.hy-play-list .item .panel{padding: 0;}
+.hy-play-list .item .panel .option{padding:15px 0;}
+.hy-play-list .item .panel .playlist ul{padding-left: 0;}
+.hy-play-list .item .panel .playlist ul li,.hy-play-list.play .item .panel .playlist ul li{width: 25%;}
+.hy-play-list .item .plot{padding: 10px 0;}}
+/* 播放下载列表 */
+.hy-play-list .item{padding: 0 10px;}
+.hy-play-list .item .panel{margin: 0; background: none; -webkit-box-shadow:none; box-shadow: none;border-radius: 0;}
+.hy-play-list .item .panel:first-child{border-top: 0;}
+.hy-play-list .item .panel .option{display: block; padding: 15px 0;}
+.hy-play-list .item .panel .playlist ul{padding: 10px 0 20px 0;}
+.hy-play-list .item .panel .playlist ul li{float: left; padding:10px 10px 0 0; width: 12.5%;}
+.hy-play-list .item .panel .playlist ul li a{display: block; width: 100%; padding: 5px; font-size: 12px; text-align: center; border-radius: 5px; overflow:hidden; text-overflow:ellipsis; -o-text-overflow:ellipsis; white-space:nowrap;}
+.hy-play-list .item .plot{padding: 20px 0; font-size: 14px; line-height: 25px;}
+.hy-play-list .item .plot img{max-width: 100%;}
+.hy-play-list .item .panel .downlist .table{margin: 0;}
+.hy-play-list .item .panel .downlist .table > thead > tr > th{border-bottom: 0; font-weight: 400;}
+.hy-play-list .item .panel .downlist .table label{font-weight: 400;}
+.hy-play-list span.pcshow,.hy-play-list .btn.pcshow,.pcshow{display:inline;}.hy-play-list span.mobileshow,.hy-play-list .btn.mobileshow,.mobileshow{display:none;}
+@media only screen and (max-width:719px){.hy-play-list span.pcshow,.hy-play-list .btn.pcshow,.pcshow{display:none;}.hy-play-list .btn.mobileshow,.hy-play-list span.mobileshow,.mobileshow{display:inline;}}

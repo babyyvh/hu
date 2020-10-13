@@ -1,0 +1,145 @@
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display:none!important
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .hidden-sm {
+        display:none!important
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .hidden-md {
+        display:none!important
+    }
+}
+
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display:none!important
+    }
+}
+
+.hy-play-list .btn-sm,.hy-play-list  .btn-group-sm>.btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.hy-play-list .btn:hover,.hy-play-list  .btn:focus,.hy-play-list  .btn.focus {
+    color: #333;
+    text-decoration: none;
+}
+.hy-play-list  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.hy-play-list  .btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.hy-play-list .btn-primary:hover,.hy-play-list  .btn-primary:focus,.hy-play-list  .btn-primary.focus,.hy-play-list  .btn-primary:active,.hy-play-list  .btn-primary.active,.hy-play-list  .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3071a9;
+    border-color: #285e8e;
+}
+.hy-play-list  .btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.hy-play-list  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.hy-play-list .btn-success:hover,.hy-play-list  .btn-success:focus,.hy-play-list  .btn-success.focus,.hy-play-list  .btn-success:active,.hy-play-list  .btn-success.active,.hy-play-list  .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+.hy-play-list .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.hy-play-list  .table>thead>tr>th, .hy-play-list  .table>tbody>tr>th, .hy-play-list  .table>tfoot>tr>th, .hy-play-list  .table>thead>tr>td, .hy-play-list  .table>tbody>tr>td, .hy-play-list  .table>tfoot>tr>td {
+    padding: 10px 0;
+}
+.hy-play-list .item .panel .playlist, .hy-play-list .item .panel .downlist .table, .hy-play-list .item .panel .playlist, .hy-cascade .content-meun .item ul,.hy-play-list   .table>thead>tr>th,.hy-play-list   .table>tbody>tr>th,.hy-play-list   .table>tfoot>tr>th,.hy-play-list   .table>thead>tr>td,.hy-play-list   .table>tbody>tr>td,.hy-play-list   .table>tfoot>tr>td{
+    border-top: 1px dashed #e2e2e2;
+}
+.hy-play-list .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.hy-play-list table {
+    background-color: transparent;
+}
+.hy-play-list table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.hy-play-list .item .panel .downlist .table > thead > tr > th {
+    color: #999;
+}
+.hy-play-list .form-control {
+    height: 35px;
+    outline: none;
+    -webkit-appearance: none;
+}
+.hy-play-list .form-control.input-sm, .hy-play-list .form-group-sm  .form-control {
+    height: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.hy-play-list .item{ padding: 0 0px;}
+.hy-play-list .item .panel{ margin: 0; background: none; -webkit-box-shadow:none; box-shadow: none;border-radius: 0;}
+.hy-play-list .item .panel:first-child{ border-top: 0;}
+.hy-play-list .item .panel .option{display: block; padding: 15px 0; }
+.hy-play-list .item .panel .playlist ul{padding: 10px 0 20px 0;}
+.hy-play-list .item .panel .playlist ul li{ float: left; padding:10px 10px 0 0; width: 12.5%;}
+.hy-play-list .item .panel .playlist ul li a{display: block; width: 100%; padding: 5px; font-size: 12px; text-align: center; border-radius: 5px; overflow:hidden; text-overflow:ellipsis; -o-text-overflow:ellipsis; white-space:nowrap;}
+.hy-play-list .item .plot{ padding: 20px 0; font-size: 14px; line-height: 25px;}
+.hy-play-list .item .plot img{ max-width: 100%;}
+.hy-play-list .item .panel .downlist .table{margin: 0;}
+.hy-play-list .item .panel .downlist .table > thead > tr > th{ border-bottom: 0; font-weight: 400;}
+.hy-play-list .item .panel .downlist .table label{ font-weight: 400;}
