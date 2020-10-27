@@ -3,10 +3,10 @@
  */
 @charset "utf-8";
 /* all */
-body{padding-top:80px}
+/*body{padding-top:80px}*/
 
 /* header */
-.stui-header__top{position:fixed;top:0;z-index:999;width:100%;height:60px}
+.stui-header__top{/*position:fixed;top:0;*/margin-bottom:20px;z-index:999;width:100%;height:60px}
 .top-fixed-down{margin-top:-60px}
 .stui-header__side{float:right}
 
@@ -105,7 +105,7 @@ body{padding-top:80px}
 @media (max-width:1024px){
 	
 	/* all */
-	body{padding-top:100px}
+	/*body{padding-top:100px}*/
 
     /* header */
     .stui-header__top{ height: 90px;}
